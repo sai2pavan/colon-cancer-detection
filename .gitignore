@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Medical data (DO NOT PUSH)
+data/
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.zip
+
+# OS / Editor
+.DS_Store
