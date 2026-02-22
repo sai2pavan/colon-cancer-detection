@@ -16,6 +16,7 @@ data/
 *.jpeg
 *.csv
 *.zip
+*.keras
 
 # OS / Editor
 .DS_Store

@@ -1,0 +1,152 @@
+
+===== TRAINING ResNet50 : PHASE 1 (Feature Extraction) =====
+
+Epoch 1/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 499ms/step - accuracy: 0.6400 - auc: 0.6517 - loss: 0.7005 - precision: 0.5525 - recall: 0.4825
+Epoch 1: val_recall improved from -inf to 0.14244, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 157s 579ms/step - accuracy: 0.6401 - auc: 0.6519 - loss: 0.7003 - precision: 0.5527 - recall: 0.4826 - val_accuracy: 0.6514 - val_auc: 0.7869 - val_loss: 0.6174 - val_precision: 0.9151 - val_recall: 0.1424 - learning_rate: 0.0010
+Epoch 2/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 498ms/step - accuracy: 0.7242 - auc: 0.7753 - loss: 0.5570 - precision: 0.6825 - recall: 0.5974
+Epoch 2: val_recall improved from 0.14244 to 0.57709, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 133s 535ms/step - accuracy: 0.7242 - auc: 0.7753 - loss: 0.5569 - precision: 0.6824 - recall: 0.5974 - val_accuracy: 0.7607 - val_auc: 0.8363 - val_loss: 0.5221 - val_precision: 0.7676 - val_recall: 0.5771 - learning_rate: 0.0010
+Epoch 3/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 492ms/step - accuracy: 0.7414 - auc: 0.7973 - loss: 0.5270 - precision: 0.7035 - recall: 0.6029
+Epoch 3: val_recall improved from 0.57709 to 0.66814, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 133s 532ms/step - accuracy: 0.7415 - auc: 0.7974 - loss: 0.5270 - precision: 0.7035 - recall: 0.6030 - val_accuracy: 0.8095 - val_auc: 0.8834 - val_loss: 0.4392 - val_precision: 0.8228 - val_recall: 0.6681 - learning_rate: 0.0010
+Epoch 4/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 497ms/step - accuracy: 0.7388 - auc: 0.8057 - loss: 0.5198 - precision: 0.7053 - recall: 0.5918
+Epoch 4: val_recall improved from 0.66814 to 0.71366, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 134s 536ms/step - accuracy: 0.7388 - auc: 0.8057 - loss: 0.5198 - precision: 0.7053 - recall: 0.5918 - val_accuracy: 0.8019 - val_auc: 0.8824 - val_loss: 0.4314 - val_precision: 0.7739 - val_recall: 0.7137 - learning_rate: 0.0010
+Epoch 5/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 487ms/step - accuracy: 0.7604 - auc: 0.8234 - loss: 0.5012 - precision: 0.7369 - recall: 0.6338
+Epoch 5: val_recall improved from 0.71366 to 0.77093, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 138s 522ms/step - accuracy: 0.7604 - auc: 0.8235 - loss: 0.5011 - precision: 0.7368 - recall: 0.6338 - val_accuracy: 0.8236 - val_auc: 0.8954 - val_loss: 0.4017 - val_precision: 0.7848 - val_recall: 0.7709 - learning_rate: 0.0010
+Epoch 6/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 490ms/step - accuracy: 0.7554 - auc: 0.8300 - loss: 0.4896 - precision: 0.7283 - recall: 0.6345
+Epoch 6: val_recall improved from 0.77093 to 0.79883, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 132s 527ms/step - accuracy: 0.7554 - auc: 0.8300 - loss: 0.4896 - precision: 0.7283 - recall: 0.6346 - val_accuracy: 0.8213 - val_auc: 0.9025 - val_loss: 0.3970 - val_precision: 0.7651 - val_recall: 0.7988 - learning_rate: 0.0010
+Epoch 7/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 489ms/step - accuracy: 0.7755 - auc: 0.8439 - loss: 0.4718 - precision: 0.7536 - recall: 0.6604
+Epoch 7: val_recall did not improve from 0.79883
+249/249 ━━━━━━━━━━━━━━━━━━━━ 130s 523ms/step - accuracy: 0.7755 - auc: 0.8439 - loss: 0.4718 - precision: 0.7537 - recall: 0.6604 - val_accuracy: 0.8107 - val_auc: 0.8914 - val_loss: 0.4041 - val_precision: 0.7644 - val_recall: 0.7621 - learning_rate: 0.0010
+Epoch 8/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 484ms/step - accuracy: 0.7809 - auc: 0.8499 - loss: 0.4629 - precision: 0.7514 - recall: 0.6646
+Epoch 8: val_recall did not improve from 0.79883
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 516ms/step - accuracy: 0.7809 - auc: 0.8499 - loss: 0.4629 - precision: 0.7514 - recall: 0.6646 - val_accuracy: 0.8383 - val_auc: 0.9058 - val_loss: 0.3872 - val_precision: 0.8012 - val_recall: 0.7930 - learning_rate: 0.0010
+Epoch 9/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.7931 - auc: 0.8667 - loss: 0.4426 - precision: 0.7712 - recall: 0.6810
+Epoch 9: val_recall improved from 0.79883 to 0.81645, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 518ms/step - accuracy: 0.7930 - auc: 0.8667 - loss: 0.4426 - precision: 0.7712 - recall: 0.6810 - val_accuracy: 0.8201 - val_auc: 0.8975 - val_loss: 0.4234 - val_precision: 0.7544 - val_recall: 0.8164 - learning_rate: 0.0010
+Epoch 10/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 495ms/step - accuracy: 0.7958 - auc: 0.8678 - loss: 0.4426 - precision: 0.7705 - recall: 0.7087
+Epoch 10: val_recall did not improve from 0.81645
+249/249 ━━━━━━━━━━━━━━━━━━━━ 132s 532ms/step - accuracy: 0.7958 - auc: 0.8678 - loss: 0.4426 - precision: 0.7705 - recall: 0.7086 - val_accuracy: 0.8583 - val_auc: 0.9281 - val_loss: 0.3444 - val_precision: 0.8364 - val_recall: 0.8032 - learning_rate: 0.0010
+Epoch 11/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 488ms/step - accuracy: 0.8067 - auc: 0.8738 - loss: 0.4287 - precision: 0.7877 - recall: 0.7042
+Epoch 11: val_recall improved from 0.81645 to 0.83994, saving model to ResNet50_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 131s 525ms/step - accuracy: 0.8067 - auc: 0.8738 - loss: 0.4287 - precision: 0.7877 - recall: 0.7042 - val_accuracy: 0.8395 - val_auc: 0.9212 - val_loss: 0.3608 - val_precision: 0.7772 - val_recall: 0.8399 - learning_rate: 0.0010
+Epoch 12/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.7978 - auc: 0.8756 - loss: 0.4314 - precision: 0.7738 - recall: 0.7037
+Epoch 12: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 511ms/step - accuracy: 0.7978 - auc: 0.8755 - loss: 0.4314 - precision: 0.7738 - recall: 0.7037 - val_accuracy: 0.8560 - val_auc: 0.9300 - val_loss: 0.3368 - val_precision: 0.8159 - val_recall: 0.8267 - learning_rate: 0.0010
+Epoch 13/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 477ms/step - accuracy: 0.8124 - auc: 0.8823 - loss: 0.4196 - precision: 0.7886 - recall: 0.7279
+Epoch 13: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 512ms/step - accuracy: 0.8124 - auc: 0.8823 - loss: 0.4196 - precision: 0.7886 - recall: 0.7279 - val_accuracy: 0.8677 - val_auc: 0.9420 - val_loss: 0.3117 - val_precision: 0.9014 - val_recall: 0.7518 - learning_rate: 0.0010
+Epoch 14/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 477ms/step - accuracy: 0.8090 - auc: 0.8873 - loss: 0.4071 - precision: 0.7894 - recall: 0.7115
+Epoch 14: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 126s 507ms/step - accuracy: 0.8090 - auc: 0.8873 - loss: 0.4071 - precision: 0.7894 - recall: 0.7115 - val_accuracy: 0.8524 - val_auc: 0.9284 - val_loss: 0.3302 - val_precision: 0.8468 - val_recall: 0.7709 - learning_rate: 0.0010
+Epoch 15/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 479ms/step - accuracy: 0.8073 - auc: 0.8837 - loss: 0.4144 - precision: 0.7869 - recall: 0.7106
+Epoch 15: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 513ms/step - accuracy: 0.8073 - auc: 0.8837 - loss: 0.4144 - precision: 0.7870 - recall: 0.7106 - val_accuracy: 0.8683 - val_auc: 0.9398 - val_loss: 0.3085 - val_precision: 0.8587 - val_recall: 0.8032 - learning_rate: 0.0010
+Epoch 16/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 483ms/step - accuracy: 0.8210 - auc: 0.8943 - loss: 0.3965 - precision: 0.8061 - recall: 0.7308
+Epoch 16: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 514ms/step - accuracy: 0.8210 - auc: 0.8943 - loss: 0.3965 - precision: 0.8061 - recall: 0.7308 - val_accuracy: 0.8548 - val_auc: 0.9221 - val_loss: 0.3558 - val_precision: 0.8118 - val_recall: 0.8297 - learning_rate: 0.0010
+Epoch 17/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 478ms/step - accuracy: 0.8182 - auc: 0.8975 - loss: 0.3905 - precision: 0.8001 - recall: 0.7323
+Epoch 17: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 512ms/step - accuracy: 0.8182 - auc: 0.8975 - loss: 0.3904 - precision: 0.8001 - recall: 0.7323 - val_accuracy: 0.8736 - val_auc: 0.9430 - val_loss: 0.3012 - val_precision: 0.8530 - val_recall: 0.8267 - learning_rate: 0.0010
+Epoch 18/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 479ms/step - accuracy: 0.8195 - auc: 0.8991 - loss: 0.3869 - precision: 0.8000 - recall: 0.7303
+Epoch 18: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 510ms/step - accuracy: 0.8195 - auc: 0.8991 - loss: 0.3869 - precision: 0.8000 - recall: 0.7303 - val_accuracy: 0.8789 - val_auc: 0.9444 - val_loss: 0.2960 - val_precision: 0.8728 - val_recall: 0.8164 - learning_rate: 0.0010
+Epoch 19/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 477ms/step - accuracy: 0.8240 - auc: 0.8944 - loss: 0.3982 - precision: 0.8194 - recall: 0.7186
+Epoch 19: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 512ms/step - accuracy: 0.8240 - auc: 0.8944 - loss: 0.3982 - precision: 0.8193 - recall: 0.7187 - val_accuracy: 0.8713 - val_auc: 0.9439 - val_loss: 0.2960 - val_precision: 0.8632 - val_recall: 0.8062 - learning_rate: 0.0010
+Epoch 20/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 482ms/step - accuracy: 0.8252 - auc: 0.9035 - loss: 0.3807 - precision: 0.8038 - recall: 0.7378
+Epoch 20: val_recall did not improve from 0.83994
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 514ms/step - accuracy: 0.8252 - auc: 0.9035 - loss: 0.3807 - precision: 0.8038 - recall: 0.7378 - val_accuracy: 0.8777 - val_auc: 0.9464 - val_loss: 0.2880 - val_precision: 0.8784 - val_recall: 0.8062 - learning_rate: 0.0010
+Restoring model weights from the end of the best epoch: 20.
+
+===== TRAINING ResNet50 : PHASE 2 (Fine-Tuning) =====
+
+Epoch 1/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 526ms/step - accuracy: 0.6378 - auc: 0.6648 - loss: 1.4633 - precision: 0.5534 - recall: 0.5517
+Epoch 1: val_recall improved from -inf to 0.55360, saving model to ResNet50_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 175s 600ms/step - accuracy: 0.6379 - auc: 0.6650 - loss: 1.4621 - precision: 0.5536 - recall: 0.5518 - val_accuracy: 0.6820 - val_auc: 0.7501 - val_loss: 1.1186 - val_precision: 0.6140 - val_recall: 0.5536 - learning_rate: 1.0000e-05
+Epoch 2/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 497ms/step - accuracy: 0.7278 - auc: 0.7856 - loss: 0.7831 - precision: 0.6677 - recall: 0.6332
+Epoch 2: val_recall improved from 0.55360 to 0.80323, saving model to ResNet50_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 134s 536ms/step - accuracy: 0.7278 - auc: 0.7856 - loss: 0.7830 - precision: 0.6677 - recall: 0.6332 - val_accuracy: 0.7019 - val_auc: 0.7975 - val_loss: 0.9826 - val_precision: 0.5946 - val_recall: 0.8032 - learning_rate: 1.0000e-05
+Epoch 3/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 506ms/step - accuracy: 0.7562 - auc: 0.8328 - loss: 0.6114 - precision: 0.7261 - recall: 0.6575
+Epoch 3: val_recall did not improve from 0.80323
+249/249 ━━━━━━━━━━━━━━━━━━━━ 135s 540ms/step - accuracy: 0.7563 - auc: 0.8328 - loss: 0.6113 - precision: 0.7261 - recall: 0.6576 - val_accuracy: 0.8336 - val_auc: 0.9082 - val_loss: 0.4053 - val_precision: 0.7944 - val_recall: 0.7885 - learning_rate: 1.0000e-05
+Epoch 4/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 492ms/step - accuracy: 0.7677 - auc: 0.8433 - loss: 0.5694 - precision: 0.7317 - recall: 0.6676
+Epoch 4: val_recall did not improve from 0.80323
+249/249 ━━━━━━━━━━━━━━━━━━━━ 131s 524ms/step - accuracy: 0.7677 - auc: 0.8434 - loss: 0.5693 - precision: 0.7317 - recall: 0.6676 - val_accuracy: 0.8201 - val_auc: 0.9054 - val_loss: 0.4070 - val_precision: 0.7630 - val_recall: 0.7988 - learning_rate: 1.0000e-05
+Epoch 5/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 503ms/step - accuracy: 0.7881 - auc: 0.8597 - loss: 0.5175 - precision: 0.7369 - recall: 0.7041
+Epoch 5: val_recall improved from 0.80323 to 0.81498, saving model to ResNet50_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 134s 540ms/step - accuracy: 0.7881 - auc: 0.8598 - loss: 0.5175 - precision: 0.7370 - recall: 0.7041 - val_accuracy: 0.8266 - val_auc: 0.9187 - val_loss: 0.4130 - val_precision: 0.7666 - val_recall: 0.8150 - learning_rate: 1.0000e-05
+Epoch 6/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 508ms/step - accuracy: 0.7968 - auc: 0.8772 - loss: 0.4602 - precision: 0.7621 - recall: 0.7086
+Epoch 6: val_recall improved from 0.81498 to 0.86637, saving model to ResNet50_final_best.keras
+
+Epoch 6: ReduceLROnPlateau reducing learning rate to 2.9999999242136253e-06.
+249/249 ━━━━━━━━━━━━━━━━━━━━ 137s 546ms/step - accuracy: 0.7968 - auc: 0.8772 - loss: 0.4601 - precision: 0.7621 - recall: 0.7086 - val_accuracy: 0.7819 - val_auc: 0.8976 - val_loss: 0.4939 - val_precision: 0.6782 - val_recall: 0.8664 - learning_rate: 1.0000e-05
+Epoch 7/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 509ms/step - accuracy: 0.8264 - auc: 0.9047 - loss: 0.3968 - precision: 0.8074 - recall: 0.7519
+Epoch 7: val_recall improved from 0.86637 to 0.87665, saving model to ResNet50_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 137s 550ms/step - accuracy: 0.8263 - auc: 0.9047 - loss: 0.3968 - precision: 0.8074 - recall: 0.7519 - val_accuracy: 0.8395 - val_auc: 0.9357 - val_loss: 0.3829 - val_precision: 0.7595 - val_recall: 0.8767 - learning_rate: 3.0000e-06
+Epoch 8/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 530ms/step - accuracy: 0.8279 - auc: 0.9108 - loss: 0.3715 - precision: 0.8069 - recall: 0.7584
+Epoch 8: val_recall did not improve from 0.87665
+249/249 ━━━━━━━━━━━━━━━━━━━━ 141s 566ms/step - accuracy: 0.8279 - auc: 0.9108 - loss: 0.3715 - precision: 0.8069 - recall: 0.7584 - val_accuracy: 0.8760 - val_auc: 0.9534 - val_loss: 0.2803 - val_precision: 0.8446 - val_recall: 0.8458 - learning_rate: 3.0000e-06
+Epoch 9/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 505ms/step - accuracy: 0.8408 - auc: 0.9179 - loss: 0.3667 - precision: 0.8386 - recall: 0.7514
+Epoch 9: val_recall did not improve from 0.87665
+249/249 ━━━━━━━━━━━━━━━━━━━━ 135s 541ms/step - accuracy: 0.8408 - auc: 0.9179 - loss: 0.3666 - precision: 0.8386 - recall: 0.7515 - val_accuracy: 0.8954 - val_auc: 0.9628 - val_loss: 0.2406 - val_precision: 0.9037 - val_recall: 0.8267 - learning_rate: 3.0000e-06
+Epoch 10/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 504ms/step - accuracy: 0.8500 - auc: 0.9259 - loss: 0.3443 - precision: 0.8237 - recall: 0.7907
+Epoch 10: val_recall did not improve from 0.87665
+249/249 ━━━━━━━━━━━━━━━━━━━━ 134s 538ms/step - accuracy: 0.8500 - auc: 0.9259 - loss: 0.3443 - precision: 0.8237 - recall: 0.7906 - val_accuracy: 0.8718 - val_auc: 0.9528 - val_loss: 0.2939 - val_precision: 0.8312 - val_recall: 0.8532 - learning_rate: 3.0000e-06
+Epoch 11/15
+248/249 ━━━━━━━━━━━━━━━━━━━━ 0s 502ms/step - accuracy: 0.8480 - auc: 0.9276 - loss: 0.3383 - precision: 0.8368 - recall: 0.7790
+Epoch 11: val_recall did not improve from 0.87665
+249/249 ━━━━━━━━━━━━━━━━━━━━ 133s 535ms/step - accuracy: 0.8480 - auc: 0.9275 - loss: 0.3384 - precision: 0.8367 - recall: 0.7790 - val_accuracy: 0.8983 - val_auc: 0.9664 - val_loss: 0.2323 - val_precision: 0.8872 - val_recall: 0.8546 - learning_rate: 3.0000e-06
+Epoch 12/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 500ms/step - accuracy: 0.8498 - auc: 0.9283 - loss: 0.3294 - precision: 0.8208 - recall: 0.7836
+Epoch 12: val_recall did not improve from 0.87665
+249/249 ━━━━━━━━━━━━━━━━━━━━ 133s 535ms/step - accuracy: 0.8498 - auc: 0.9283 - loss: 0.3294 - precision: 0.8208 - recall: 0.7836 - val_accuracy: 0.8777 - val_auc: 0.9551 - val_loss: 0.2843 - val_precision: 0.8289 - val_recall: 0.8752 - learning_rate: 3.0000e-06
+Epoch 13/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 506ms/step - accuracy: 0.8622 - auc: 0.9361 - loss: 0.3157 - precision: 0.8479 - recall: 0.7987
+Epoch 13: val_recall did not improve from 0.87665
+249/249 ━━━━━━━━━━━━━━━━━━━━ 135s 541ms/step - accuracy: 0.8621 - auc: 0.9361 - loss: 0.3157 - precision: 0.8479 - recall: 0.7987 - val_accuracy: 0.8942 - val_auc: 0.9599 - val_loss: 0.2687 - val_precision: 0.8646 - val_recall: 0.8722 - learning_rate: 3.0000e-06
+Epoch 14/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 507ms/step - accuracy: 0.8611 - auc: 0.9375 - loss: 0.3132 - precision: 0.8535 - recall: 0.7972
+Epoch 14: val_recall did not improve from 0.87665
+
+Epoch 14: ReduceLROnPlateau reducing learning rate to 8.999999636216671e-07.
+249/249 ━━━━━━━━━━━━━━━━━━━━ 135s 541ms/step - accuracy: 0.8611 - auc: 0.9375 - loss: 0.3133 - precision: 0.8534 - recall: 0.7972 - val_accuracy: 0.9018 - val_auc: 0.9649 - val_loss: 0.2379 - val_precision: 0.9028 - val_recall: 0.8458 - learning_rate: 3.0000e-06
+Epoch 15/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 498ms/step - accuracy: 0.8656 - auc: 0.9411 - loss: 0.3024 - precision: 0.8519 - recall: 0.8014
+Epoch 15: val_recall did not improve from 0.87665
+249/249 ━━━━━━━━━━━━━━━━━━━━ 132s 531ms/step - accuracy: 0.8656 - auc: 0.9411 - loss: 0.3024 - precision: 0.8519 - recall: 0.8014 - val_accuracy: 0.8971 - val_auc: 0.9677 - val_loss: 0.2315 - val_precision: 0.8787 - val_recall: 0.8620 - learning_rate: 9.0000e-07
+Restoring model weights from the end of the best epoch: 15.

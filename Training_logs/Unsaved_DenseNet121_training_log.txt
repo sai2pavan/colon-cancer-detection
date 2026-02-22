@@ -1,0 +1,152 @@
+
+===== TRAINING DenseNet121 : PHASE 1 (Feature Extraction) =====
+
+/usr/local/lib/python3.12/dist-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+Epoch 1/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 549ms/step - accuracy: 0.7503 - auc: 0.8140 - loss: 0.5266 - precision: 0.7022 - recall: 0.6945
+Epoch 1: val_recall improved from -inf to 0.81204, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 201s 688ms/step - accuracy: 0.7505 - auc: 0.8143 - loss: 0.5262 - precision: 0.7024 - recall: 0.6947 - val_accuracy: 0.8948 - val_auc: 0.9598 - val_loss: 0.2756 - val_precision: 0.9156 - val_recall: 0.8120 - learning_rate: 0.0010
+Epoch 2/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 487ms/step - accuracy: 0.8769 - auc: 0.9435 - loss: 0.2953 - precision: 0.8529 - recall: 0.8361
+Epoch 2: val_recall did not improve from 0.81204
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 519ms/step - accuracy: 0.8769 - auc: 0.9435 - loss: 0.2952 - precision: 0.8530 - recall: 0.8361 - val_accuracy: 0.9071 - val_auc: 0.9771 - val_loss: 0.2251 - val_precision: 0.9612 - val_recall: 0.8003 - learning_rate: 0.0010
+Epoch 3/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9066 - auc: 0.9654 - loss: 0.2328 - precision: 0.8910 - recall: 0.8699
+Epoch 3: val_recall improved from 0.81204 to 0.86197, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 518ms/step - accuracy: 0.9066 - auc: 0.9654 - loss: 0.2328 - precision: 0.8910 - recall: 0.8699 - val_accuracy: 0.9394 - val_auc: 0.9893 - val_loss: 0.1618 - val_precision: 0.9849 - val_recall: 0.8620 - learning_rate: 0.0010
+Epoch 4/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9173 - auc: 0.9762 - loss: 0.1938 - precision: 0.9010 - recall: 0.8917
+Epoch 4: val_recall improved from 0.86197 to 0.89868, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 515ms/step - accuracy: 0.9173 - auc: 0.9762 - loss: 0.1938 - precision: 0.9010 - recall: 0.8918 - val_accuracy: 0.9536 - val_auc: 0.9900 - val_loss: 0.1365 - val_precision: 0.9839 - val_recall: 0.8987 - learning_rate: 0.0010
+Epoch 5/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 476ms/step - accuracy: 0.9397 - auc: 0.9841 - loss: 0.1603 - precision: 0.9258 - recall: 0.9212
+Epoch 5: val_recall did not improve from 0.89868
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 509ms/step - accuracy: 0.9397 - auc: 0.9841 - loss: 0.1602 - precision: 0.9258 - recall: 0.9212 - val_accuracy: 0.9377 - val_auc: 0.9901 - val_loss: 0.1511 - val_precision: 0.9848 - val_recall: 0.8576 - learning_rate: 0.0010
+Epoch 6/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9514 - auc: 0.9876 - loss: 0.1379 - precision: 0.9444 - recall: 0.9326
+Epoch 6: val_recall did not improve from 0.89868
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 511ms/step - accuracy: 0.9513 - auc: 0.9876 - loss: 0.1379 - precision: 0.9444 - recall: 0.9326 - val_accuracy: 0.9518 - val_auc: 0.9938 - val_loss: 0.1293 - val_precision: 0.9918 - val_recall: 0.8869 - learning_rate: 0.0010
+Epoch 7/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 481ms/step - accuracy: 0.9580 - auc: 0.9918 - loss: 0.1128 - precision: 0.9511 - recall: 0.9427
+Epoch 7: val_recall improved from 0.89868 to 0.90162, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 520ms/step - accuracy: 0.9579 - auc: 0.9918 - loss: 0.1128 - precision: 0.9511 - recall: 0.9427 - val_accuracy: 0.9524 - val_auc: 0.9940 - val_loss: 0.1132 - val_precision: 0.9777 - val_recall: 0.9016 - learning_rate: 0.0010
+Epoch 8/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 476ms/step - accuracy: 0.9571 - auc: 0.9899 - loss: 0.1213 - precision: 0.9485 - recall: 0.9448
+Epoch 8: val_recall improved from 0.90162 to 0.92511, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 513ms/step - accuracy: 0.9571 - auc: 0.9899 - loss: 0.1213 - precision: 0.9485 - recall: 0.9448 - val_accuracy: 0.9641 - val_auc: 0.9968 - val_loss: 0.0832 - val_precision: 0.9844 - val_recall: 0.9251 - learning_rate: 0.0010
+Epoch 9/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9581 - auc: 0.9922 - loss: 0.1060 - precision: 0.9471 - recall: 0.9483
+Epoch 9: val_recall did not improve from 0.92511
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 514ms/step - accuracy: 0.9581 - auc: 0.9922 - loss: 0.1060 - precision: 0.9471 - recall: 0.9483 - val_accuracy: 0.9641 - val_auc: 0.9967 - val_loss: 0.0950 - val_precision: 0.9952 - val_recall: 0.9148 - learning_rate: 0.0010
+Epoch 10/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 479ms/step - accuracy: 0.9651 - auc: 0.9941 - loss: 0.0945 - precision: 0.9628 - recall: 0.9492
+Epoch 10: val_recall did not improve from 0.92511
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 513ms/step - accuracy: 0.9651 - auc: 0.9941 - loss: 0.0946 - precision: 0.9628 - recall: 0.9492 - val_accuracy: 0.9647 - val_auc: 0.9963 - val_loss: 0.0901 - val_precision: 0.9890 - val_recall: 0.9222 - learning_rate: 0.0010
+Epoch 11/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 495ms/step - accuracy: 0.9693 - auc: 0.9950 - loss: 0.0873 - precision: 0.9624 - recall: 0.9620
+Epoch 11: val_recall improved from 0.92511 to 0.92805, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 133s 535ms/step - accuracy: 0.9693 - auc: 0.9950 - loss: 0.0873 - precision: 0.9624 - recall: 0.9619 - val_accuracy: 0.9659 - val_auc: 0.9966 - val_loss: 0.0830 - val_precision: 0.9860 - val_recall: 0.9280 - learning_rate: 0.0010
+Epoch 12/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 486ms/step - accuracy: 0.9683 - auc: 0.9954 - loss: 0.0843 - precision: 0.9618 - recall: 0.9593
+Epoch 12: val_recall did not improve from 0.92805
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 516ms/step - accuracy: 0.9683 - auc: 0.9954 - loss: 0.0843 - precision: 0.9618 - recall: 0.9593 - val_accuracy: 0.9624 - val_auc: 0.9942 - val_loss: 0.1108 - val_precision: 0.9952 - val_recall: 0.9104 - learning_rate: 0.0010
+Epoch 13/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 483ms/step - accuracy: 0.9708 - auc: 0.9953 - loss: 0.0814 - precision: 0.9640 - recall: 0.9648
+Epoch 13: val_recall did not improve from 0.92805
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 516ms/step - accuracy: 0.9708 - auc: 0.9953 - loss: 0.0813 - precision: 0.9640 - recall: 0.9648 - val_accuracy: 0.9688 - val_auc: 0.9962 - val_loss: 0.0913 - val_precision: 0.9968 - val_recall: 0.9251 - learning_rate: 0.0010
+Epoch 14/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 472ms/step - accuracy: 0.9690 - auc: 0.9951 - loss: 0.0827 - precision: 0.9620 - recall: 0.9608
+Epoch 14: val_recall improved from 0.92805 to 0.95154, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 510ms/step - accuracy: 0.9690 - auc: 0.9951 - loss: 0.0827 - precision: 0.9620 - recall: 0.9608 - val_accuracy: 0.9788 - val_auc: 0.9966 - val_loss: 0.0676 - val_precision: 0.9954 - val_recall: 0.9515 - learning_rate: 0.0010
+Epoch 15/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 478ms/step - accuracy: 0.9739 - auc: 0.9967 - loss: 0.0708 - precision: 0.9682 - recall: 0.9649
+Epoch 15: val_recall did not improve from 0.95154
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 509ms/step - accuracy: 0.9739 - auc: 0.9967 - loss: 0.0708 - precision: 0.9682 - recall: 0.9649 - val_accuracy: 0.9747 - val_auc: 0.9968 - val_loss: 0.0647 - val_precision: 0.9938 - val_recall: 0.9427 - learning_rate: 0.0010
+Epoch 16/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 473ms/step - accuracy: 0.9670 - auc: 0.9947 - loss: 0.0853 - precision: 0.9565 - recall: 0.9604
+Epoch 16: val_recall did not improve from 0.95154
+249/249 ━━━━━━━━━━━━━━━━━━━━ 126s 506ms/step - accuracy: 0.9670 - auc: 0.9947 - loss: 0.0853 - precision: 0.9565 - recall: 0.9604 - val_accuracy: 0.9724 - val_auc: 0.9971 - val_loss: 0.0697 - val_precision: 0.9922 - val_recall: 0.9383 - learning_rate: 0.0010
+Epoch 17/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 483ms/step - accuracy: 0.9742 - auc: 0.9966 - loss: 0.0688 - precision: 0.9688 - recall: 0.9673
+Epoch 17: val_recall did not improve from 0.95154
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 512ms/step - accuracy: 0.9742 - auc: 0.9966 - loss: 0.0688 - precision: 0.9688 - recall: 0.9673 - val_accuracy: 0.9759 - val_auc: 0.9969 - val_loss: 0.0718 - val_precision: 0.9969 - val_recall: 0.9427 - learning_rate: 0.0010
+Epoch 18/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 485ms/step - accuracy: 0.9773 - auc: 0.9979 - loss: 0.0577 - precision: 0.9731 - recall: 0.9718
+Epoch 18: val_recall did not improve from 0.95154
+
+Epoch 18: ReduceLROnPlateau reducing learning rate to 0.0003000000142492354.
+249/249 ━━━━━━━━━━━━━━━━━━━━ 130s 521ms/step - accuracy: 0.9773 - auc: 0.9979 - loss: 0.0577 - precision: 0.9731 - recall: 0.9718 - val_accuracy: 0.9753 - val_auc: 0.9955 - val_loss: 0.0759 - val_precision: 0.9953 - val_recall: 0.9427 - learning_rate: 0.0010
+Epoch 19/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 495ms/step - accuracy: 0.9782 - auc: 0.9970 - loss: 0.0608 - precision: 0.9766 - recall: 0.9684
+Epoch 19: val_recall improved from 0.95154 to 0.96329, saving model to DenseNet121_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 132s 531ms/step - accuracy: 0.9782 - auc: 0.9970 - loss: 0.0608 - precision: 0.9765 - recall: 0.9684 - val_accuracy: 0.9835 - val_auc: 0.9975 - val_loss: 0.0555 - val_precision: 0.9954 - val_recall: 0.9633 - learning_rate: 3.0000e-04
+Epoch 20/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9833 - auc: 0.9986 - loss: 0.0480 - precision: 0.9807 - recall: 0.9774
+Epoch 20: val_recall did not improve from 0.96329
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 514ms/step - accuracy: 0.9833 - auc: 0.9986 - loss: 0.0479 - precision: 0.9807 - recall: 0.9774 - val_accuracy: 0.9741 - val_auc: 0.9968 - val_loss: 0.0802 - val_precision: 0.9953 - val_recall: 0.9398 - learning_rate: 3.0000e-04
+Restoring model weights from the end of the best epoch: 19.
+
+===== TRAINING DenseNet121 : PHASE 2 (Fine-Tuning) =====
+
+Epoch 1/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 544ms/step - accuracy: 0.9729 - auc: 0.9967 - loss: 0.0717 - precision: 0.9682 - recall: 0.9630
+Epoch 1: val_recall improved from -inf to 0.95595, saving model to DenseNet121_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 204s 673ms/step - accuracy: 0.9729 - auc: 0.9967 - loss: 0.0716 - precision: 0.9682 - recall: 0.9630 - val_accuracy: 0.9812 - val_auc: 0.9974 - val_loss: 0.0606 - val_precision: 0.9969 - val_recall: 0.9559 - learning_rate: 1.0000e-05
+Epoch 2/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 481ms/step - accuracy: 0.9780 - auc: 0.9984 - loss: 0.0539 - precision: 0.9688 - recall: 0.9757
+Epoch 2: val_recall did not improve from 0.95595
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 516ms/step - accuracy: 0.9780 - auc: 0.9984 - loss: 0.0539 - precision: 0.9689 - recall: 0.9757 - val_accuracy: 0.9812 - val_auc: 0.9980 - val_loss: 0.0596 - val_precision: 0.9969 - val_recall: 0.9559 - learning_rate: 1.0000e-05
+Epoch 3/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 482ms/step - accuracy: 0.9803 - auc: 0.9982 - loss: 0.0544 - precision: 0.9735 - recall: 0.9772
+Epoch 3: val_recall improved from 0.95595 to 0.95742, saving model to DenseNet121_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 519ms/step - accuracy: 0.9803 - auc: 0.9982 - loss: 0.0544 - precision: 0.9735 - recall: 0.9772 - val_accuracy: 0.9818 - val_auc: 0.9982 - val_loss: 0.0546 - val_precision: 0.9969 - val_recall: 0.9574 - learning_rate: 1.0000e-05
+Epoch 4/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 484ms/step - accuracy: 0.9858 - auc: 0.9988 - loss: 0.0462 - precision: 0.9834 - recall: 0.9816
+Epoch 4: val_recall did not improve from 0.95742
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 519ms/step - accuracy: 0.9858 - auc: 0.9988 - loss: 0.0462 - precision: 0.9834 - recall: 0.9816 - val_accuracy: 0.9812 - val_auc: 0.9983 - val_loss: 0.0542 - val_precision: 0.9969 - val_recall: 0.9559 - learning_rate: 1.0000e-05
+Epoch 5/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 487ms/step - accuracy: 0.9862 - auc: 0.9945 - loss: 0.0486 - precision: 0.9833 - recall: 0.9818
+Epoch 5: val_recall did not improve from 0.95742
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 517ms/step - accuracy: 0.9862 - auc: 0.9946 - loss: 0.0486 - precision: 0.9833 - recall: 0.9818 - val_accuracy: 0.9812 - val_auc: 0.9983 - val_loss: 0.0523 - val_precision: 0.9969 - val_recall: 0.9559 - learning_rate: 1.0000e-05
+Epoch 6/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 476ms/step - accuracy: 0.9835 - auc: 0.9987 - loss: 0.0460 - precision: 0.9803 - recall: 0.9790
+Epoch 6: val_recall did not improve from 0.95742
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 510ms/step - accuracy: 0.9835 - auc: 0.9987 - loss: 0.0460 - precision: 0.9803 - recall: 0.9790 - val_accuracy: 0.9806 - val_auc: 0.9983 - val_loss: 0.0516 - val_precision: 0.9969 - val_recall: 0.9545 - learning_rate: 1.0000e-05
+Epoch 7/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 474ms/step - accuracy: 0.9828 - auc: 0.9983 - loss: 0.0507 - precision: 0.9797 - recall: 0.9768
+Epoch 7: val_recall did not improve from 0.95742
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 509ms/step - accuracy: 0.9828 - auc: 0.9983 - loss: 0.0507 - precision: 0.9797 - recall: 0.9768 - val_accuracy: 0.9806 - val_auc: 0.9983 - val_loss: 0.0507 - val_precision: 0.9954 - val_recall: 0.9559 - learning_rate: 1.0000e-05
+Epoch 8/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 479ms/step - accuracy: 0.9854 - auc: 0.9987 - loss: 0.0445 - precision: 0.9853 - recall: 0.9784
+Epoch 8: val_recall improved from 0.95742 to 0.95888, saving model to DenseNet121_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 515ms/step - accuracy: 0.9854 - auc: 0.9987 - loss: 0.0445 - precision: 0.9852 - recall: 0.9784 - val_accuracy: 0.9824 - val_auc: 0.9984 - val_loss: 0.0473 - val_precision: 0.9969 - val_recall: 0.9589 - learning_rate: 1.0000e-05
+Epoch 9/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9864 - auc: 0.9991 - loss: 0.0382 - precision: 0.9780 - recall: 0.9876
+Epoch 9: val_recall did not improve from 0.95888
+249/249 ━━━━━━━━━━━━━━━━━━━━ 141s 512ms/step - accuracy: 0.9864 - auc: 0.9991 - loss: 0.0382 - precision: 0.9780 - recall: 0.9876 - val_accuracy: 0.9824 - val_auc: 0.9984 - val_loss: 0.0503 - val_precision: 0.9969 - val_recall: 0.9589 - learning_rate: 1.0000e-05
+Epoch 10/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 483ms/step - accuracy: 0.9894 - auc: 0.9993 - loss: 0.0359 - precision: 0.9851 - recall: 0.9891
+Epoch 10: val_recall did not improve from 0.95888
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 515ms/step - accuracy: 0.9894 - auc: 0.9993 - loss: 0.0359 - precision: 0.9851 - recall: 0.9891 - val_accuracy: 0.9824 - val_auc: 0.9984 - val_loss: 0.0496 - val_precision: 0.9969 - val_recall: 0.9589 - learning_rate: 1.0000e-05
+Epoch 11/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 482ms/step - accuracy: 0.9877 - auc: 0.9988 - loss: 0.0410 - precision: 0.9862 - recall: 0.9828
+Epoch 11: val_recall improved from 0.95888 to 0.96329, saving model to DenseNet121_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 130s 520ms/step - accuracy: 0.9877 - auc: 0.9988 - loss: 0.0410 - precision: 0.9862 - recall: 0.9828 - val_accuracy: 0.9841 - val_auc: 0.9986 - val_loss: 0.0427 - val_precision: 0.9970 - val_recall: 0.9633 - learning_rate: 1.0000e-05
+Epoch 12/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 481ms/step - accuracy: 0.9832 - auc: 0.9988 - loss: 0.0445 - precision: 0.9800 - recall: 0.9777
+Epoch 12: val_recall did not improve from 0.96329
+249/249 ━━━━━━━━━━━━━━━━━━━━ 130s 523ms/step - accuracy: 0.9832 - auc: 0.9988 - loss: 0.0445 - precision: 0.9800 - recall: 0.9777 - val_accuracy: 0.9830 - val_auc: 0.9986 - val_loss: 0.0452 - val_precision: 0.9970 - val_recall: 0.9604 - learning_rate: 1.0000e-05
+Epoch 13/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 482ms/step - accuracy: 0.9883 - auc: 0.9989 - loss: 0.0361 - precision: 0.9845 - recall: 0.9858
+Epoch 13: val_recall improved from 0.96329 to 0.96623, saving model to DenseNet121_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 517ms/step - accuracy: 0.9883 - auc: 0.9989 - loss: 0.0361 - precision: 0.9845 - recall: 0.9858 - val_accuracy: 0.9853 - val_auc: 0.9990 - val_loss: 0.0412 - val_precision: 0.9970 - val_recall: 0.9662 - learning_rate: 1.0000e-05
+Epoch 14/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9904 - auc: 0.9994 - loss: 0.0328 - precision: 0.9871 - recall: 0.9888
+Epoch 14: val_recall did not improve from 0.96623
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 513ms/step - accuracy: 0.9904 - auc: 0.9994 - loss: 0.0328 - precision: 0.9871 - recall: 0.9888 - val_accuracy: 0.9812 - val_auc: 0.9986 - val_loss: 0.0456 - val_precision: 0.9954 - val_recall: 0.9574 - learning_rate: 1.0000e-05
+Epoch 15/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 484ms/step - accuracy: 0.9868 - auc: 0.9991 - loss: 0.0377 - precision: 0.9828 - recall: 0.9850
+Epoch 15: val_recall did not improve from 0.96623
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 514ms/step - accuracy: 0.9868 - auc: 0.9991 - loss: 0.0377 - precision: 0.9828 - recall: 0.9850 - val_accuracy: 0.9824 - val_auc: 0.9986 - val_loss: 0.0475 - val_precision: 0.9969 - val_recall: 0.9589 - learning_rate: 1.0000e-05
+Restoring model weights from the end of the best epoch: 13.

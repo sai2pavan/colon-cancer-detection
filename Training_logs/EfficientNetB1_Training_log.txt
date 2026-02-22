@@ -1,0 +1,155 @@
+===== TRAINING EfficientNetB1 : PHASE 1 (Feature Extraction) =====
+
+/usr/local/lib/python3.12/dist-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+Epoch 1/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 597ms/step - accuracy: 0.7543 - auc: 0.8187 - loss: 0.5796 - precision: 0.7060 - recall: 0.6836
+Epoch 1: val_recall improved from -inf to 0.67841, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 229s 742ms/step - accuracy: 0.7545 - auc: 0.8189 - loss: 0.5792 - precision: 0.7062 - recall: 0.6838 - val_accuracy: 0.8560 - val_auc: 0.9596 - val_loss: 0.3090 - val_precision: 0.9467 - val_recall: 0.6784 - learning_rate: 0.0010
+Epoch 2/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 479ms/step - accuracy: 0.8752 - auc: 0.9416 - loss: 0.3042 - precision: 0.8493 - recall: 0.8355
+Epoch 2: val_recall did not improve from 0.67841
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 513ms/step - accuracy: 0.8752 - auc: 0.9416 - loss: 0.3042 - precision: 0.8493 - recall: 0.8355 - val_accuracy: 0.8560 - val_auc: 0.9653 - val_loss: 0.3268 - val_precision: 0.9542 - val_recall: 0.6725 - learning_rate: 0.0010
+Epoch 3/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 491ms/step - accuracy: 0.9028 - auc: 0.9643 - loss: 0.2348 - precision: 0.8851 - recall: 0.8661
+Epoch 3: val_recall improved from 0.67841 to 0.80029, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 131s 526ms/step - accuracy: 0.9028 - auc: 0.9643 - loss: 0.2349 - precision: 0.8850 - recall: 0.8661 - val_accuracy: 0.9106 - val_auc: 0.9814 - val_loss: 0.2213 - val_precision: 0.9715 - val_recall: 0.8003 - learning_rate: 0.0010
+Epoch 4/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 495ms/step - accuracy: 0.9112 - auc: 0.9703 - loss: 0.2154 - precision: 0.8919 - recall: 0.8848
+Epoch 4: val_recall did not improve from 0.80029
+249/249 ━━━━━━━━━━━━━━━━━━━━ 132s 529ms/step - accuracy: 0.9112 - auc: 0.9703 - loss: 0.2153 - precision: 0.8919 - recall: 0.8848 - val_accuracy: 0.8989 - val_auc: 0.9807 - val_loss: 0.2440 - val_precision: 0.9670 - val_recall: 0.7739 - learning_rate: 0.0010
+Epoch 5/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 492ms/step - accuracy: 0.9267 - auc: 0.9779 - loss: 0.1847 - precision: 0.9062 - recall: 0.9097
+Epoch 5: val_recall improved from 0.80029 to 0.83260, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 131s 528ms/step - accuracy: 0.9267 - auc: 0.9779 - loss: 0.1847 - precision: 0.9062 - recall: 0.9096 - val_accuracy: 0.9248 - val_auc: 0.9874 - val_loss: 0.1879 - val_precision: 0.9759 - val_recall: 0.8326 - learning_rate: 0.0010
+Epoch 6/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 477ms/step - accuracy: 0.9274 - auc: 0.9786 - loss: 0.1817 - precision: 0.9107 - recall: 0.9044
+Epoch 6: val_recall improved from 0.83260 to 0.91630, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 513ms/step - accuracy: 0.9274 - auc: 0.9786 - loss: 0.1817 - precision: 0.9108 - recall: 0.9044 - val_accuracy: 0.9530 - val_auc: 0.9922 - val_loss: 0.1172 - val_precision: 0.9645 - val_recall: 0.9163 - learning_rate: 0.0010
+Epoch 7/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 482ms/step - accuracy: 0.9404 - auc: 0.9849 - loss: 0.1516 - precision: 0.9256 - recall: 0.9249
+Epoch 7: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 511ms/step - accuracy: 0.9404 - auc: 0.9849 - loss: 0.1516 - precision: 0.9256 - recall: 0.9249 - val_accuracy: 0.9118 - val_auc: 0.9862 - val_loss: 0.2029 - val_precision: 0.9716 - val_recall: 0.8032 - learning_rate: 0.0010
+Epoch 8/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 477ms/step - accuracy: 0.9451 - auc: 0.9870 - loss: 0.1425 - precision: 0.9326 - recall: 0.9308
+Epoch 8: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 510ms/step - accuracy: 0.9451 - auc: 0.9870 - loss: 0.1425 - precision: 0.9326 - recall: 0.9308 - val_accuracy: 0.9324 - val_auc: 0.9898 - val_loss: 0.1642 - val_precision: 0.9764 - val_recall: 0.8517 - learning_rate: 0.0010
+Epoch 9/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 468ms/step - accuracy: 0.9501 - auc: 0.9887 - loss: 0.1311 - precision: 0.9417 - recall: 0.9340
+Epoch 9: val_recall did not improve from 0.91630
+
+Epoch 9: ReduceLROnPlateau reducing learning rate to 0.0003000000142492354.
+249/249 ━━━━━━━━━━━━━━━━━━━━ 125s 501ms/step - accuracy: 0.9501 - auc: 0.9887 - loss: 0.1311 - precision: 0.9417 - recall: 0.9340 - val_accuracy: 0.9383 - val_auc: 0.9922 - val_loss: 0.1506 - val_precision: 0.9816 - val_recall: 0.8620 - learning_rate: 0.0010
+Epoch 10/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 470ms/step - accuracy: 0.9566 - auc: 0.9920 - loss: 0.1117 - precision: 0.9472 - recall: 0.9440
+Epoch 10: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 125s 503ms/step - accuracy: 0.9566 - auc: 0.9920 - loss: 0.1116 - precision: 0.9472 - recall: 0.9440 - val_accuracy: 0.9459 - val_auc: 0.9940 - val_loss: 0.1395 - val_precision: 0.9917 - val_recall: 0.8722 - learning_rate: 3.0000e-04
+Epoch 11/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 468ms/step - accuracy: 0.9646 - auc: 0.9938 - loss: 0.0983 - precision: 0.9609 - recall: 0.9516
+Epoch 11: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 124s 497ms/step - accuracy: 0.9646 - auc: 0.9938 - loss: 0.0983 - precision: 0.9609 - recall: 0.9516 - val_accuracy: 0.9536 - val_auc: 0.9957 - val_loss: 0.1170 - val_precision: 0.9902 - val_recall: 0.8928 - learning_rate: 3.0000e-04
+Epoch 12/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 463ms/step - accuracy: 0.9655 - auc: 0.9943 - loss: 0.0915 - precision: 0.9572 - recall: 0.9582
+Epoch 12: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 122s 491ms/step - accuracy: 0.9655 - auc: 0.9943 - loss: 0.0915 - precision: 0.9573 - recall: 0.9582 - val_accuracy: 0.9442 - val_auc: 0.9954 - val_loss: 0.1237 - val_precision: 0.9788 - val_recall: 0.8796 - learning_rate: 3.0000e-04
+Epoch 13/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 464ms/step - accuracy: 0.9671 - auc: 0.9953 - loss: 0.0881 - precision: 0.9664 - recall: 0.9541
+Epoch 13: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 123s 493ms/step - accuracy: 0.9671 - auc: 0.9953 - loss: 0.0881 - precision: 0.9664 - recall: 0.9541 - val_accuracy: 0.9512 - val_auc: 0.9953 - val_loss: 0.1242 - val_precision: 0.9902 - val_recall: 0.8869 - learning_rate: 3.0000e-04
+Epoch 14/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 462ms/step - accuracy: 0.9703 - auc: 0.9950 - loss: 0.0853 - precision: 0.9704 - recall: 0.9561
+Epoch 14: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 123s 494ms/step - accuracy: 0.9703 - auc: 0.9950 - loss: 0.0853 - precision: 0.9704 - recall: 0.9561 - val_accuracy: 0.9577 - val_auc: 0.9973 - val_loss: 0.1113 - val_precision: 0.9919 - val_recall: 0.9016 - learning_rate: 3.0000e-04
+Epoch 15/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 465ms/step - accuracy: 0.9681 - auc: 0.9955 - loss: 0.0816 - precision: 0.9695 - recall: 0.9526
+Epoch 15: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 124s 498ms/step - accuracy: 0.9682 - auc: 0.9955 - loss: 0.0816 - precision: 0.9695 - recall: 0.9526 - val_accuracy: 0.9477 - val_auc: 0.9954 - val_loss: 0.1277 - val_precision: 0.9837 - val_recall: 0.8840 - learning_rate: 3.0000e-04
+Epoch 16/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 468ms/step - accuracy: 0.9791 - auc: 0.9972 - loss: 0.0628 - precision: 0.9767 - recall: 0.9710
+Epoch 16: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 125s 500ms/step - accuracy: 0.9791 - auc: 0.9972 - loss: 0.0628 - precision: 0.9767 - recall: 0.9710 - val_accuracy: 0.9494 - val_auc: 0.9944 - val_loss: 0.1283 - val_precision: 0.9934 - val_recall: 0.8796 - learning_rate: 3.0000e-04
+Epoch 17/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 472ms/step - accuracy: 0.9761 - auc: 0.9966 - loss: 0.0718 - precision: 0.9763 - recall: 0.9640
+Epoch 17: val_recall improved from 0.91630 to 0.93833, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_phase1_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 126s 506ms/step - accuracy: 0.9761 - auc: 0.9966 - loss: 0.0719 - precision: 0.9763 - recall: 0.9639 - val_accuracy: 0.9700 - val_auc: 0.9977 - val_loss: 0.0756 - val_precision: 0.9861 - val_recall: 0.9383 - learning_rate: 3.0000e-04
+Epoch 18/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 477ms/step - accuracy: 0.9757 - auc: 0.9971 - loss: 0.0677 - precision: 0.9735 - recall: 0.9677
+Epoch 18: val_recall did not improve from 0.93833
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 509ms/step - accuracy: 0.9757 - auc: 0.9971 - loss: 0.0676 - precision: 0.9735 - recall: 0.9677 - val_accuracy: 0.9588 - val_auc: 0.9971 - val_loss: 0.0930 - val_precision: 0.9872 - val_recall: 0.9090 - learning_rate: 3.0000e-04
+Epoch 19/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 470ms/step - accuracy: 0.9777 - auc: 0.9974 - loss: 0.0636 - precision: 0.9746 - recall: 0.9704
+Epoch 19: val_recall did not improve from 0.93833
+249/249 ━━━━━━━━━━━━━━━━━━━━ 125s 502ms/step - accuracy: 0.9777 - auc: 0.9974 - loss: 0.0636 - precision: 0.9745 - recall: 0.9704 - val_accuracy: 0.9630 - val_auc: 0.9983 - val_loss: 0.0935 - val_precision: 0.9920 - val_recall: 0.9148 - learning_rate: 3.0000e-04
+Epoch 20/20
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 468ms/step - accuracy: 0.9751 - auc: 0.9968 - loss: 0.0685 - precision: 0.9714 - recall: 0.9645
+Epoch 20: val_recall did not improve from 0.93833
+
+Epoch 20: ReduceLROnPlateau reducing learning rate to 9.000000427477062e-05.
+249/249 ━━━━━━━━━━━━━━━━━━━━ 125s 501ms/step - accuracy: 0.9751 - auc: 0.9968 - loss: 0.0685 - precision: 0.9714 - recall: 0.9645 - val_accuracy: 0.9541 - val_auc: 0.9966 - val_loss: 0.1008 - val_precision: 0.9839 - val_recall: 0.9001 - learning_rate: 3.0000e-04
+Restoring model weights from the end of the best epoch: 17.
+
+===== TRAINING EfficientNetB1 : PHASE 2 (Fine-Tuning) =====
+
+Epoch 1/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 543ms/step - accuracy: 0.9558 - auc: 0.9896 - loss: 0.1186 - precision: 0.9472 - recall: 0.9396
+Epoch 1: val_recall improved from -inf to 0.90455, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 200s 652ms/step - accuracy: 0.9558 - auc: 0.9896 - loss: 0.1186 - precision: 0.9472 - recall: 0.9396 - val_accuracy: 0.9541 - val_auc: 0.9934 - val_loss: 0.1140 - val_precision: 0.9793 - val_recall: 0.9046 - learning_rate: 1.0000e-05
+Epoch 2/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 479ms/step - accuracy: 0.9585 - auc: 0.9928 - loss: 0.1053 - precision: 0.9518 - recall: 0.9444
+Epoch 2: val_recall did not improve from 0.90455
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 508ms/step - accuracy: 0.9585 - auc: 0.9929 - loss: 0.1053 - precision: 0.9518 - recall: 0.9445 - val_accuracy: 0.9442 - val_auc: 0.9936 - val_loss: 0.1381 - val_precision: 0.9851 - val_recall: 0.8737 - learning_rate: 1.0000e-05
+Epoch 3/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 485ms/step - accuracy: 0.9691 - auc: 0.9950 - loss: 0.0861 - precision: 0.9627 - recall: 0.9578
+Epoch 3: val_recall did not improve from 0.90455
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 516ms/step - accuracy: 0.9691 - auc: 0.9950 - loss: 0.0861 - precision: 0.9627 - recall: 0.9578 - val_accuracy: 0.9477 - val_auc: 0.9935 - val_loss: 0.1399 - val_precision: 0.9901 - val_recall: 0.8781 - learning_rate: 1.0000e-05
+Epoch 4/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 481ms/step - accuracy: 0.9721 - auc: 0.9948 - loss: 0.0847 - precision: 0.9660 - recall: 0.9627
+Epoch 4: val_recall did not improve from 0.90455
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 514ms/step - accuracy: 0.9721 - auc: 0.9948 - loss: 0.0847 - precision: 0.9660 - recall: 0.9627 - val_accuracy: 0.9571 - val_auc: 0.9953 - val_loss: 0.1094 - val_precision: 0.9887 - val_recall: 0.9031 - learning_rate: 1.0000e-05
+Epoch 5/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 480ms/step - accuracy: 0.9724 - auc: 0.9962 - loss: 0.0772 - precision: 0.9656 - recall: 0.9666
+Epoch 5: val_recall did not improve from 0.90455
+249/249 ━━━━━━━━━━━━━━━━━━━━ 127s 510ms/step - accuracy: 0.9724 - auc: 0.9962 - loss: 0.0772 - precision: 0.9656 - recall: 0.9665 - val_accuracy: 0.9547 - val_auc: 0.9953 - val_loss: 0.1203 - val_precision: 0.9903 - val_recall: 0.8957 - learning_rate: 1.0000e-05
+Epoch 6/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 479ms/step - accuracy: 0.9728 - auc: 0.9967 - loss: 0.0729 - precision: 0.9675 - recall: 0.9639
+Epoch 6: val_recall improved from 0.90455 to 0.91336, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 129s 517ms/step - accuracy: 0.9728 - auc: 0.9967 - loss: 0.0728 - precision: 0.9676 - recall: 0.9639 - val_accuracy: 0.9612 - val_auc: 0.9960 - val_loss: 0.1005 - val_precision: 0.9889 - val_recall: 0.9134 - learning_rate: 1.0000e-05
+Epoch 7/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 483ms/step - accuracy: 0.9756 - auc: 0.9968 - loss: 0.0670 - precision: 0.9701 - recall: 0.9688
+Epoch 7: val_recall did not improve from 0.91336
+249/249 ━━━━━━━━━━━━━━━━━━━━ 128s 514ms/step - accuracy: 0.9756 - auc: 0.9968 - loss: 0.0670 - precision: 0.9701 - recall: 0.9688 - val_accuracy: 0.9559 - val_auc: 0.9964 - val_loss: 0.1059 - val_precision: 0.9871 - val_recall: 0.9016 - learning_rate: 1.0000e-05
+Epoch 8/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 471ms/step - accuracy: 0.9732 - auc: 0.9968 - loss: 0.0716 - precision: 0.9681 - recall: 0.9647
+Epoch 8: val_recall did not improve from 0.91336
+249/249 ━━━━━━━━━━━━━━━━━━━━ 125s 500ms/step - accuracy: 0.9732 - auc: 0.9968 - loss: 0.0716 - precision: 0.9681 - recall: 0.9647 - val_accuracy: 0.9606 - val_auc: 0.9967 - val_loss: 0.1018 - val_precision: 0.9904 - val_recall: 0.9104 - learning_rate: 1.0000e-05
+Epoch 9/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 469ms/step - accuracy: 0.9783 - auc: 0.9977 - loss: 0.0617 - precision: 0.9775 - recall: 0.9685
+Epoch 9: val_recall did not improve from 0.91336
+
+Epoch 9: ReduceLROnPlateau reducing learning rate to 2.9999999242136253e-06.
+249/249 ━━━━━━━━━━━━━━━━━━━━ 124s 500ms/step - accuracy: 0.9783 - auc: 0.9976 - loss: 0.0617 - precision: 0.9774 - recall: 0.9685 - val_accuracy: 0.9600 - val_auc: 0.9966 - val_loss: 0.1017 - val_precision: 0.9888 - val_recall: 0.9104 - learning_rate: 1.0000e-05
+Epoch 10/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 463ms/step - accuracy: 0.9810 - auc: 0.9978 - loss: 0.0588 - precision: 0.9785 - recall: 0.9738
+Epoch 10: val_recall did not improve from 0.91336
+249/249 ━━━━━━━━━━━━━━━━━━━━ 124s 496ms/step - accuracy: 0.9810 - auc: 0.9978 - loss: 0.0588 - precision: 0.9785 - recall: 0.9738 - val_accuracy: 0.9606 - val_auc: 0.9968 - val_loss: 0.0943 - val_precision: 0.9889 - val_recall: 0.9119 - learning_rate: 3.0000e-06
+Epoch 11/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 470ms/step - accuracy: 0.9786 - auc: 0.9970 - loss: 0.0611 - precision: 0.9705 - recall: 0.9757
+Epoch 11: val_recall did not improve from 0.91336
+249/249 ━━━━━━━━━━━━━━━━━━━━ 125s 503ms/step - accuracy: 0.9786 - auc: 0.9970 - loss: 0.0611 - precision: 0.9705 - recall: 0.9757 - val_accuracy: 0.9600 - val_auc: 0.9975 - val_loss: 0.0951 - val_precision: 0.9873 - val_recall: 0.9119 - learning_rate: 3.0000e-06
+Epoch 12/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 467ms/step - accuracy: 0.9812 - auc: 0.9980 - loss: 0.0562 - precision: 0.9799 - recall: 0.9729
+Epoch 12: val_recall did not improve from 0.91336
+249/249 ━━━━━━━━━━━━━━━━━━━━ 124s 498ms/step - accuracy: 0.9812 - auc: 0.9980 - loss: 0.0562 - precision: 0.9799 - recall: 0.9729 - val_accuracy: 0.9594 - val_auc: 0.9974 - val_loss: 0.0955 - val_precision: 0.9873 - val_recall: 0.9104 - learning_rate: 3.0000e-06
+Epoch 13/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 471ms/step - accuracy: 0.9820 - auc: 0.9973 - loss: 0.0577 - precision: 0.9820 - recall: 0.9734
+Epoch 13: val_recall improved from 0.91336 to 0.91630, saving model to /content/drive/MyDrive/ColonCancerCT/EfficientNetB1_final_best.keras
+249/249 ━━━━━━━━━━━━━━━━━━━━ 126s 506ms/step - accuracy: 0.9820 - auc: 0.9973 - loss: 0.0577 - precision: 0.9820 - recall: 0.9734 - val_accuracy: 0.9618 - val_auc: 0.9969 - val_loss: 0.0924 - val_precision: 0.9873 - val_recall: 0.9163 - learning_rate: 3.0000e-06
+Epoch 14/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 466ms/step - accuracy: 0.9772 - auc: 0.9977 - loss: 0.0612 - precision: 0.9711 - recall: 0.9713
+Epoch 14: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 124s 498ms/step - accuracy: 0.9772 - auc: 0.9977 - loss: 0.0612 - precision: 0.9711 - recall: 0.9713 - val_accuracy: 0.9618 - val_auc: 0.9976 - val_loss: 0.0945 - val_precision: 0.9904 - val_recall: 0.9134 - learning_rate: 3.0000e-06
+Epoch 15/15
+249/249 ━━━━━━━━━━━━━━━━━━━━ 0s 465ms/step - accuracy: 0.9819 - auc: 0.9979 - loss: 0.0564 - precision: 0.9775 - recall: 0.9773
+Epoch 15: val_recall did not improve from 0.91630
+249/249 ━━━━━━━━━━━━━━━━━━━━ 124s 497ms/step - accuracy: 0.9819 - auc: 0.9979 - loss: 0.0564 - precision: 0.9775 - recall: 0.9773 - val_accuracy: 0.9588 - val_auc: 0.9973 - val_loss: 0.1018 - val_precision: 0.9872 - val_recall: 0.9090 - learning_rate: 3.0000e-06
+Restoring model weights from the end of the best epoch: 13.
