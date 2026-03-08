@@ -1,0 +1,22 @@
+54/54 ━━━━━━━━━━━━━━━━━━━━ 1077s 20s/step
+Confusion Matrix:
+ [[1018    3]
+ [  63  618]]
+
+--- EfficientNetB0 Test Metrics ---
+Sensitivity (Cancer Recall): 0.9075
+Specificity: 0.9971
+Precision: 0.9952
+Accuracy: 0.9612
+AUC: 0.9989
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+  Non_Cancer       0.94      1.00      0.97      1021
+      Cancer       1.00      0.91      0.95       681
+
+    accuracy                           0.96      1702
+   macro avg       0.97      0.95      0.96      1702
+weighted avg       0.96      0.96      0.96      1702

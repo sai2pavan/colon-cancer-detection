@@ -1,0 +1,21 @@
+Confusion Matrix:
+ [[1016    5]
+ [  25  656]]
+
+--- DenseNet121 Test Metrics ---
+Sensitivity (Cancer Recall): 0.9633
+Specificity: 0.9951
+Precision: 0.9924
+Accuracy: 0.9824
+AUC: 0.9991
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+  Non_Cancer       0.98      1.00      0.99      1021
+      Cancer       0.99      0.96      0.98       681
+
+    accuracy                           0.98      1702
+   macro avg       0.98      0.98      0.98      1702
+weighted avg       0.98      0.98      0.98      1702
